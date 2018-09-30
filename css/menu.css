@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+.first{
+    width: 300px;
+    background: black;
+    color: white;
+}
+li{
+    width: 100%;
+    line-height: 50px;
+    cursor: pointer;
+}
+li div:hover{
+    background: #000e30;
+}
+.hsq {
+    float: right;
+    padding-right: 10px;
+}

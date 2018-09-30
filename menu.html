@@ -3,8 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>三级菜单</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_859280_6t2a3e64chf.css">
 </head>
 <body>
-
+    <ul class="first">
+        <li>
+            <div>一级菜单<i class="hsq icon-jian"></i></div>
+            <ul class="second">
+                <li>
+                    <div>二级菜单</div>
+                </li>
+                <li>
+                    <div>二级菜单</div>
+                </li>
+                <li>
+                    <div>二级菜单<i class="hsq icon-jian"></i></div>
+                    <ul class="third">
+                        <li>
+                            <div>三级菜单</div>
+                        </li>
+                        <li>
+                            <div>三级菜单</div>
+                        </li>
+                        <li>
+                            <div>三级菜单</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div>一级菜单<i class="hsq icon-jian"></i></div>
+            <ul class="second">
+                <li><div>二级菜单<i class="hsq icon-jian"></i></div>
+                    <ul class="third">
+                        <li>
+                            <div>三级菜单</div>
+                        </li>
+                        <li>
+                            <div>三级菜单</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><div>一级菜单</div></li>
+    </ul>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+        menu.init();
+    </script>
 </body>
 </html>
